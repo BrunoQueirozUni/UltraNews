@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kode Mono", monospace;
+}
+
+body {  
+  height: 100%;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  color: #E1E1E6;
+  background-color: #E0E0E0;
+}
+
+body, input, textarea, button {
+   font: 400 1rem "Kode Mono", monospace;
+}
