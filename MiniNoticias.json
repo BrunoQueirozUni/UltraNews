@@ -1,0 +1,25 @@
+{
+  "mininoticias": [
+    {
+      "id": 1,
+      "title": "Quem é Lorde Marneus Calgar?",
+      "description": "Mestre do Capítulo dos Ultramarines, Senhor de Macragge, mundo capital do Reino de Ultramar.",
+      "tags": "Conhecimento",
+      "createdAt": "2024-07-22T20:55:36.854Z"
+    },
+    {
+      "id": 2,
+      "title": "O que é um Dreadnought?",
+      "description": "Um Dreadnought é um tipo de armadura de combate usada pelos Marines Espaciais das Legiões Astartes e pelos Capítulos de Marines Espaciais.",
+      "tags": "Conhecimento",
+      "createdAt": "2024-07-22T20:55:36.854Z"
+    },
+    {
+      "id": 3,
+      "title": "A invasão tirânica em Avarax",
+      "description": "A invasão tirânica em Avarax ainda persiste com uma forte resistencia do Astra Militarum e dos Space Marines.",
+      "tags": "Eventos",
+      "createdAt": "2024-07-22T20:55:36.854Z"
+    }
+  ]
+}

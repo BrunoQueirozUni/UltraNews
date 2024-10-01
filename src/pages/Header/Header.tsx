@@ -9,14 +9,14 @@ import ultra from "../../../public/imgs/ultra2.png";
 export function Header() {
   return (
     <>
-      <header className="w-full h-[80px] flex items-center justify-center bg-ultramarine-color">
+      <header className="w-full h-[70px] fixed flex items-center justify-center bg-ultramarine-color">
         <nav className="w-full h-full flex justify-center items-center gap-2">
           <div className="w-1/3 pl-10">
             <Dialog.Root>
               <Dialog.Trigger><List className="w-9 h-9" /></Dialog.Trigger>
               <Dialog.Portal>
-                <Dialog.Overlay className="fixed w-full h-full bg-modalBackground" />
-                <Dialog.Content className="h-full bg-gray-700 fixed flex flex-col items-center">
+                <Dialog.Overlay className="fixed w-screen h-screen top-[70px] bg-modalBackground " />
+                <Dialog.Content className="h-full bg-gray-700 fixed top-[70px] flex flex-col items-center">
                   <Dialog.Title className="pt-6">
                     <img src={ultra} alt="" className="w-[160px]" />
                   </Dialog.Title>
@@ -60,7 +60,7 @@ export function Header() {
             </Dialog.Root>
           </div>
           <div className="w-1/3 flex justify-center select-none">
-            <img src={ultra} alt="" className="w-[155px]" />
+            <img src={ultra} alt="" className="w-[135px]" />
           </div>
           <div className="w-1/3 flex justify-end">
             <ul className="flex pr-10 gap-2 font-bold">
