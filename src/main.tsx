@@ -6,7 +6,6 @@ import App from "./App.tsx"
 import "./index.css"
 
 import { Home } from "./pages/home/Home.tsx";
-import { MiniNoticias } from "./components/MiniNoticias/MiniNoticias.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,10 +15,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-      },
-      {
-        path: "/noticia/:id/:title",
-        element: <MiniNoticias />,
       }
     ]
   }
